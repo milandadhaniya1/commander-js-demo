@@ -12,8 +12,8 @@
     "type-check": "tsc --noEmit",
     
     "cli": "tsx src/index.ts",
-    "help": "tsx src/index.ts --help",
-    "examples": "tsx src/index.ts examples"
+    "cli-help": "tsx src/index.ts --help",
+    "cli-examples": "tsx src/index.ts examples"
   },
   "bin": {
     "demo-cli": "./index.js"

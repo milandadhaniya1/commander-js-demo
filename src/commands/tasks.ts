@@ -6,7 +6,7 @@ import inquirer from 'inquirer';
 import Table from 'cli-table3';
 import boxen from 'boxen';
 
-const TASKS_FILE = path.resolve('./tasks.json');
+const TASKS_FILE = path.resolve('./demo-files/tasks.json');
 
 // Helper functions
 async function loadTasks() {
@@ -57,13 +57,13 @@ export function taskCommands(program) {
     .addHelpText('after', `
 
 Examples:
-  $ demo-cli task add "Complete project documentation"
-  $ demo-cli task add "Fix bug" --priority high --due "2024-01-15"
-  $ demo-cli task list --status pending
-  $ demo-cli task list --priority high --format table
-  $ demo-cli task complete task123
-  $ demo-cli task update task123 --priority urgent
-  $ demo-cli task search --text "documentation"
+  $ pnpm cli task add "Complete project documentation"
+  $ pnpm cli task add "Fix bug" --priority high --due "2024-01-15"
+  $ pnpm cli task list --status pending
+  $ pnpm cli task list --priority high --format table
+  $ pnpm cli task complete task123
+  $ pnpm cli task update task123 --priority urgent
+  $ pnpm cli task search --text "documentation"
 `);
 
   // Add task command

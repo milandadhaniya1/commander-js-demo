@@ -8,7 +8,7 @@ import boxen from 'boxen';
 import type { Command } from 'commander';
 import type { User, UserOptions } from '../types/index';
 
-const USERS_FILE = path.resolve('./users.json');
+const USERS_FILE = path.resolve('./demo-files/users.json');
 
 // Helper functions
 async function loadUsers(): Promise<User[]> {

@@ -104,11 +104,6 @@ program
       console.log(`  ${chalk.green('$')} ${chalk.white(cmd)}`);
       console.log(`    ${chalk.gray(desc)}\n`);
     });
-
-    console.log(chalk.bold.yellow('💡 Pro Tips:'));
-    console.log(chalk.gray('  • Use tab completion: pnpm <TAB>'));
-    console.log(chalk.gray('  • All CLI commands available as pnpm scripts'));
-    console.log(chalk.gray('  • Run "pnpm commands" to see all available commands'));
     console.log();
   });
 

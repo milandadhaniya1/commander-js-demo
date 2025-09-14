@@ -6,7 +6,7 @@ import inquirer from 'inquirer';
 import Table from 'cli-table3';
 import boxen from 'boxen';
 
-const CONFIG_FILE = path.resolve('./config.json');
+const CONFIG_FILE = path.resolve('./demo-files/config.json');
 
 // Default configuration
 const DEFAULT_CONFIG = {
@@ -92,14 +92,14 @@ export function configCommands(program) {
     .addHelpText('after', `
 
 Examples:
-  $ demo-cli config get theme
-  $ demo-cli config get --all
-  $ demo-cli config set theme dark
-  $ demo-cli config set colorOutput false
-  $ demo-cli config list --format table
-  $ demo-cli config reset
-  $ demo-cli config export config-backup.json
-  $ demo-cli config import config-backup.json
+  $ pnpm cli config get theme
+  $ pnpm cli config get --all
+  $ pnpm cli config set theme dark
+  $ pnpm cli config set colorOutput false
+  $ pnpm cli config list --format table
+  $ pnpm cli config reset
+  $ pnpm cli config export config-backup.json
+  $ pnpm cli config import config-backup.json
 
 Available Configuration Keys:
   theme          - UI theme (default, dark, light, rainbow)

@@ -154,11 +154,11 @@ export function systemCommands(program: Command): void {
     .addHelpText('after', `
 
 Examples:
-  $ demo-cli system info
-  $ demo-cli system info --detailed
-  $ demo-cli sys info --format json
-  $ demo-cli system monitor --interval 5
-  $ demo-cli system health
+  $ pnpm cli system info
+  $ pnpm cli system info --detailed
+  $ pnpm cli sys info --format json
+  $ pnpm cli system monitor --interval 5
+  $ pnpm cli system health
 `);
 
   // System info command
