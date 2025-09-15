@@ -539,7 +539,6 @@ commander-js-demo/
 │       └── index.ts         # TypeScript definitions
 ├── demo-files/              # 📁 Created files go here
 ├── dist/                    # Compiled JavaScript
-├── docs/                    # Training materials
 └── package.json            # 40+ pnpm scripts
 
 # Files created by CLI commands are stored in demo-files/ directory
@@ -561,31 +560,6 @@ commander-js-demo/
 
 MIT License - Feel free to use this demo for educational purposes.
 
-## 🎯 Perfect for Training
-
-This demo is specifically designed for:
-
-- **Office presentations** on Commander.js
-- **Hands-on workshops** with real examples  
-- **Code reviews** showing best practices
-- **TypeScript integration** demonstration
-- **Modern CLI development** patterns
-
-### Key Training Features
-
-- ✅ **40+ pnpm shortcuts** for easy command execution
-- ✅ **Beautiful UI** with colors, spinners, and boxes
-- ✅ **Multiple input patterns** (args, options, interactive)  
-- ✅ **TypeScript implementation** with full type safety
-- ✅ **Real-world examples** that developers can relate to
-- ✅ **Clean project structure** following best practices
-- ✅ **Comprehensive documentation** for self-learning
-
 ---
 
-**Author**: Milan Dadhaniya  
-**Purpose**: Commander.js comprehensive demonstration for team training  
-**Version**: TypeScript Edition  
-**Last Updated**: September 2025
-
-> Ready to impress your colleagues with this professional CLI demo! 🚀
+**Author**: Milan Dadhaniya 

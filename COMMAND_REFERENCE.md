@@ -829,7 +829,3 @@ Commands include built-in validation for emails, dates, file paths, etc.
 
 ### 7. Error Handling
 All commands provide clear error messages and suggestions.
-
----
-
-*This documentation covers the complete TypeScript implementation of the Commander.js demo with all available commands and options.*
